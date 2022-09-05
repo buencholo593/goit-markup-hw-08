@@ -17,7 +17,6 @@ body {
     font-weight: 700;
     color:#2196F3;
     text-decoration: none;
-    font-family: 'Raleway', sans-serif;;
     letter-spacing: 0.03em;
 }
 
@@ -141,7 +140,7 @@ body {
     }
 
 .images_content_second {
-    width: 373.16px;
+    width: 373px;
 }
 
 .content_users {
