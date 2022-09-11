@@ -18,41 +18,38 @@
     
     <header>
         <div class="container">
+            <div class="container_header">
     
-            <nav class="menu_main" id="main">
-                <h2 class="logo_main"><a href=".././index.html">WebStudio</a></h2>
+                <nav class="menu_main" id="main">
+                    <h2 class="logo_main"><a href="./index.html">WebStudio</a></h2>
     
-                <div class="menu">
+                    <div class="menu">
+                        <ul class="menu_list">
+                            <li><a class="menu_list_item" href=".././index.html">Estudio</a></li>
+                            <li><a class="menu_list_item" href=".././pages/portfolio.html">Portafolio</a></li>
+                            <li><a class="menu_list_item" href="#contact_id">Contactos</a></li>
+                        </ul>
+                    </div>
+    
+                </nav>
+    
+                <div class="menu_contacts">
                     <ul class="menu_list">
-                        <li><a class="menu_list_item" href=".././index.html">Estudio</a></li>
-                        <li><a class="menu_list_item" href=".././pages/portfolio.html">Portafolio</a></li>
-                        <li><a class="menu_list_item" href="#contact_id">Contactos</a></li>
+                        <li>
+                            <img src=".././images/mail.svg" alt="mail">
+                            <a class="menu_list_item2" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                        </li>
+                        <li>
+                            <img src=".././images/phone.svg" alt="phone">
+                            <a class="menu_list_item2" href="tel:+525555296000">+52 55 5529 6000</a>
+                        </li>
                     </ul>
                 </div>
-    
-            </nav>
-    
-            <div class="menu_contacts">
-                <ul class="menu_list">
-                    <li>
-                        <div>
-                            <img class="img_little" src=".././images/sobre.svg" alt="email">
-                            <a class="menu_list_item2" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                        </div>
-                    </li>
-                    <li>
-
-                        <div>
-                            <img class="img_little2" src=".././images/vector.svg" alt="phone">
-                            <a class="menu_list_item2" href="tel:+525555296000">+52 55 5529 6000</a>
-                        </div>
-                    </li>
-                </ul>
             </div>
         </div>
     </header>
     
-    <main>
+    <main class="main_port">
         <div class="container">
             <div class="nav_port">
 
@@ -73,7 +70,7 @@
                     <figcaption>
                         <div class="info_user">
                             <h3 class="tittle_img_fig">Tecnoduck</h3>
-                            <span class="descrip_img_fig">Sitio-web</span>
+                            <p class="descrip_img_fig">Sitio-web</p>
                         </div>
                     </figcaption>
                 </figure>
@@ -82,7 +79,7 @@
                     <figcaption>
                         <div class="info_user">
                             <h3 class="tittle_img_fig">Póster de Nueva Orleans vs Estrella Dorada</h3>
-                            <span class="descrip_img_fig">Diseño</span>
+                            <p class="descrip_img_fig">Diseño</p>
                         </div>
                     </figcaption>
                 </figure>
@@ -91,7 +88,7 @@
                     <figcaption>
                         <div class="info_user">
                             <h3 class="tittle_img_fig">Restaurante Seafood</h3>
-                            <span class="descrip_img_fig">Aplicaciones</span>
+                            <p class="descrip_img_fig">Aplicaciones</p>
                         </div>
                     </figcaption>
                 </figure>
@@ -100,7 +97,7 @@
                     <figcaption>
                         <div class="info_user">
                             <h3  class="tittle_img_fig">Proyecto Prime</h3>
-                            <span class="descrip_img_fig">Marketing</span>
+                            <p class="descrip_img_fig">Marketing</p>
                         </div>
                     </figcaption>
                 </figure>
@@ -109,7 +106,7 @@
                     <figcaption>
                         <div class="info_user">
                             <h3 class="tittle_img_fig">Proyecto Cajas</h3>
-                            <span class="descrip_img_fig">Aplicaciones</span>
+                            <p class="descrip_img_fig">Aplicaciones</p>
                         </div>
                     </figcaption>
                 </figure>
@@ -118,7 +115,7 @@
                     <figcaption>
                         <div class="info_user">
                             <h3 class="tittle_img_fig">La inspiración no tiene límites</h3>
-                            <span class="descrip_img_fig">Sitio-web</span>
+                            <p class="descrip_img_fig">Sitio-web</p>
                         </div>
                     </figcaption>
                 </figure>
@@ -127,7 +124,7 @@
                     <figcaption>
                         <div class="info_user">
                             <h3 class="tittle_img_fig">Edición Limitada</h3>
-                            <span class="descrip_img_fig">Diseño</span>
+                            <p class="descrip_img_fig">Diseño</p>
                         </div>
                     </figcaption>
                 </figure>
@@ -136,16 +133,16 @@
                     <figcaption>
                         <div class="info_user">
                             <h3 class="tittle_img_fig">Proyecto LAB</h3>
-                            <span class="descrip_img_fig">Marketing</span>
+                            <p class="descrip_img_fig">Marketing</p>
                         </div>
                     </figcaption>
                 </figure>
-                <figure class="imagenpic19">
-                    <img src=".././images/imagenpic9.jpg" alt="imagenpic19" class="img_content_port">
+                <figure class="imagenpic9">
+                    <img src=".././images/imagenpic9.jpg" alt="imagenpic9" class="img_content_port">
                     <figcaption>
                         <div class="info_user">
                             <h3 class="tittle_img_fig">Negocio en Crecimiento</h3>
-                            <span class="descrip_img_fig">Aplicaciones</span>
+                            <p class="descrip_img_fig">Aplicaciones</p>
                         </div>
                     </figcaption>
                 </figure>
@@ -158,31 +155,35 @@
     <footer id="contact_id" class="footer">
         <div class="container">
 
-            <div class="adress">
-                <h2 class="logo_main"><a href="#main">WebStudio</a></h2>
-                <div class="info_contact">
-                    <address class="adress_footer">Calz. Ticomán 500, Ciudad de México, CDMX, México</address>
-                </div>
-                <div class="menu_contacts">
-                    <ul class="list_menu_contacts">
-                        <li><a class="item_menu_contact" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                        <li><a class="item_menu_contact" href="tel:+525555296000">+52 55 5529 6000</a></li>
-                    </ul>
-                </div>
-            </div>
+            <div class="footer_port">
 
-            <div class="social_pages">
-
-                <p class="tittle_socialp">
-                    ENCUENTRANOS EN
-                </p>
-
-                <div class="social_img">
-                    <img class="img_socialp" src=".././images/instagram.svg" alt="instagram">
-                    <img class="img_socialp" src=".././images/facebook.svg" alt="facebook">
-                    <img class="img_socialp" src=".././images/twitter.svg" alt="twitter">
-                    <img class="img_socialp" src=".././images/in.svg" alt="in">
+                <div class="adress">
+                    <h2 class="logo_main"><a href="#main">WebStudio</a></h2>
+                    <div class="info_contact">
+                        <address class="adress_footer">Calz. Ticomán 500, Ciudad de México, CDMX, México</address>
+                    </div>
+                    <div class="menu_contacts">
+                        <ul class="list_menu_contacts">
+                            <li><a class="item_menu_contact" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                            <li><a class="item_menu_contact" href="tel:+525555296000">+52 55 5529 6000</a></li>
+                        </ul>
+                    </div>
                 </div>
+
+                <div class="social_pages">
+
+                    <p class="tittle_socialp">
+                        ENCUENTRANOS EN
+                    </p>
+
+                    <div class="social_img">
+                        <img class="img_socialp" src=".././images/instagram.svg" alt="instagram">
+                        <img class="img_socialp" src=".././images/facebook.svg" alt="facebook">
+                        <img class="img_socialp" src=".././images/twitter.svg" alt="twitter">
+                        <img class="img_socialp" src=".././images/in.svg" alt="in">
+                    </div>
+                </div>
+
             </div>
         </div>
     </footer>

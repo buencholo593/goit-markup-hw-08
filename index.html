@@ -19,35 +19,37 @@
 
 <header>
     <div class="container">
+        <div class="container_header">
 
-        <nav class="menu_main" id="main">
-            <h2 class="logo_main"><a href="./index.html">WebStudio</a></h2>
+            <nav class="menu_main" id="main">
+                <h2 class="logo_main"><a href="./index.html">WebStudio</a></h2>
 
-            <div class="menu">
+                <div class="menu">
+                    <ul class="menu_list">
+                        <li><a class="menu_list_item" href="./index.html">Estudio</a></li>
+                        <li><a class="menu_list_item" href="./pages/portfolio.html">Portafolio</a></li>
+                        <li><a class="menu_list_item" href="#contact_id">Contactos</a></li>
+                    </ul>
+                </div>
+
+            </nav>
+
+            <div class="menu_contacts">
                 <ul class="menu_list">
-                    <li><a class="menu_list_item" href="./index.html">Estudio</a></li>
-                    <li><a class="menu_list_item" href="./pages/portfolio.html">Portafolio</a></li>
-                    <li><a class="menu_list_item" href="#contact_id">Contactos</a></li>
+                    <li>
+                        <a class="menu_list_item2" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    </li>
+                    <li>
+                        <a class="menu_list_item2" href="tel:+525555296000">+52 55 5529 6000</a>
+                    </li>
                 </ul>
             </div>
-
-        </nav>
-
-        <div class="menu_contacts">
-            <ul class="menu_list">
-                <li>
-                    <a class="menu_list_item2" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                </li>
-                <li>
-                    <a class="menu_list_item2" href="tel:+525555296000">+52 55 5529 6000</a>
-                </li>
-            </ul>
         </div>
     </div>
 </header>
 
 
-<main>
+<main class="main_index">
     <div class="container">
         <div class="container_tittle_index" >
             <h1 class="tittle_index" >SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
@@ -60,22 +62,33 @@
     <div class="container">
 
         <div class="content_first">
-            <div>
-                <h3 class="content_first_tittle">ATENCIÓN A LOS DETALLES</h3>
-                <p class="content_first_text">Nos adentramos en todos los detalles y procesos de su negocio, para así desarrollar una solución a su medida.</p>
-            </div>
-            <div>
-                <h3 class="content_first_tittle" >PUNTUALIDAD</h3>
-                <p class="content_first_text">Con nosotros, usted puede sentirse seguro y protegido. Un principio importante de la empresa: respetar su tiempo y respetar los plazos acordados.</p>
-            </div>
-            <div>
-                <h3 class="content_first_tittle">PLANIFICACIÓN</h3>
-                <p class="content_first_text">Usted podrá observar y participar en cada fase del desarrollo y aplicación de soluciones.</p>
-            </div>
-            <div>
-                <h3 class="content_first_tittle">TEGNOLOGÍA MODERNA</h3>
-                <p class="content_first_text">Usamos herramientas innovadoras para resolver las tareas asignadas. Es hora de simplificar los procesos laborales.</p>
-            </div>
+
+            <ul class="list_content_first">
+                <li>            
+                    <div>
+                    <h3 class="content_first_tittle">ATENCIÓN A LOS DETALLES</h3>
+                    <p class="content_first_text">Nos adentramos en todos los detalles y procesos de su negocio, para así desarrollar una solución a su medida.</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                    <h3 class="content_first_tittle" >PUNTUALIDAD</h3>
+                    <p class="content_first_text">Con nosotros, usted puede sentirse seguro y protegido. Un principio importante de la empresa: respetar su tiempo y respetar los plazos acordados.</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <h3 class="content_first_tittle">PLANIFICACIÓN</h3>
+                        <p class="content_first_text">Usted podrá observar y participar en cada fase del desarrollo y aplicación de soluciones.</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <h3 class="content_first_tittle">TEGNOLOGÍA MODERNA</h3>
+                        <p class="content_first_text">Usamos herramientas innovadoras para resolver las tareas asignadas. Es hora de simplificar los procesos laborales.</p>
+                    </div>
+                </li>
+            </ul>
         </div>
 
         <div class="content_second">
@@ -99,7 +112,7 @@
                     <figcaption>
                         <div class="info_user">
                             <h3 class="info_user_tittle">Andrés Cubo</h3>
-                            <span class="info_user_desc">Diseñador de Productos</span>
+                            <p class="info_user_desc">Diseñador de Productos</p>
                         </div>
                     </figcaption>
                 </figure>
@@ -109,7 +122,7 @@
                     <figcaption>
                         <div class="info_user">
                             <h3 class="info_user_tittle">Carla Palacios</h3>
-                            <span>Desarrolladora Frontend</span>
+                            <p class="info_user_desc">Desarrolladora Frontend</p>
                         </div>
                     </figcaption>
                 </figure>
@@ -119,7 +132,7 @@
                     <figcaption>
                         <div class="info_user">
                             <h3 class="info_user_tittle">Mario Dorado</h3>
-                            <span>Marketing</span>
+                            <p class="info_user_desc">Marketing</p>
                         </div>
                     </figcaption>
                 </figure>
@@ -129,7 +142,7 @@
                     <figcaption>
                         <div class="info_user">
                             <h3 class="info_user_tittle">Pablo Mijangos</h3>
-                            <span>Diseñador IU</span>
+                            <p class="info_user_desc">Diseñador IU</p>
                         </div>
                     </figcaption>
                 </figure>
@@ -138,7 +151,7 @@
     </div>
 </section>
 
-<footer id="contact_id" class="footer">
+<footer id="contact_id">
     <div class="container">
 
         <div class="adress">
