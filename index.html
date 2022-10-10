@@ -4,14 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-    <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
+    <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/styles.css">
+
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
 
@@ -143,7 +142,18 @@
     <div class="container">
         <div class="container_tittle_index" >
             <h1 class="tittle_index" >SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
-            <button class="button_bar_nav" type="button">Solicite nuestro servicio</button>
+            <button class="button_bar_nav" type="button" data-modal-open>Solicite nuestro servicio</button>
+            <div class="backdrop is-hidden">
+                <div class="modal" data-modal>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, aliquam assumenda commodi eum ex laborum
+                        nisi omnis pariatur! Aut dolore inventore molestiae odit possimus, quam voluptas. Commodi cum dicta
+                        dignissimos hic illum in maiores, minima nostrum numquam sapiente sed voluptate! Consectetur, error esse
+                        ipsa nemo odio rerum sapiente? Animi, excepturi!
+                    </p>
+                    <button data-modal-close>Cerrar</button>
+                </div>
+            </div>
+        
         </div>
     </div>
 </main>
@@ -511,6 +521,8 @@
             </div>
         </div>
     </div>
-</footer>                                                               
+</footer>
+
+<script src="./js/modal.js"></script>
 </body>
 </html>
