@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/modern-normalize.css">
     <link rel="stylesheet" href="./css/styles.css">
 
     
@@ -145,12 +145,51 @@
             <button class="button_bar_nav" type="button" data-modal-open>Solicite nuestro servicio</button>
             <div class="backdrop is-hidden" data-modal>
                 <div class="modal">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, aliquam assumenda commodi eum ex laborum
-                        nisi omnis pariatur! Aut dolore inventore molestiae odit possimus, quam voluptas. Commodi cum dicta
-                        dignissimos hic illum in maiores, minima nostrum numquam sapiente sed voluptate! Consectetur, error esse
-                        ipsa nemo odio rerum sapiente? Animi, excepturi!
-                    </p>
-                    <button data-modal-close>Cerrar</button>
+
+                    <div class="containerModal">
+
+                        <h2>Daje sus datos, nos contactaremos con usted</h2>
+
+                        <form name="name" class="formMain">
+
+                            <div class="div"> 
+                                <label for="name" class="form name">Nombre</label>
+                                <input type="text" name="username" id="name">
+                            </div>
+
+                            <div class="div">
+                                <label for="phone" class="form phone" >Teléfono</label>
+                                <input type="text" name="username" id="phone">
+                            </div>
+
+                            <div class="div">
+                                <label for="mail" class="form mail" >E-mail</label>
+                                <input type="text" name="username" id="mail">
+                            </div>
+
+                            <div class="div"> 
+                                <label for="coment" class="form coment" >Comentarios</label>
+                                <textarea rows="5" name="coment" id="coment" placeholder="Introduzca el texto"></textarea>
+                            </div>
+
+                            <div class="condition">
+                                <input type="checkbox" name="username" id="push">
+                                <label for="push" class="push" >Estoy de acuerdo con el boletín informativo y acepto los Términos y Condiciones</label>
+                            </div>
+
+                            <input type="submit" class="main__buttomForm">
+
+
+
+                        </form>
+
+
+
+                    </div>
+
+                    <button data-modal-close class="exit">
+                        X
+                    </button>
                 </div>
             </div>
         
