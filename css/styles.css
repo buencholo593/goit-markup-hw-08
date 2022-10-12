@@ -611,15 +611,16 @@ margin: 60px auto 150px;
     position: relative;
 }
 
-.containerModal h2 {
+legend {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 23px;
-    text-align: center;
     letter-spacing: 0.03em;
     margin-bottom: 12px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .formMain {
@@ -643,10 +644,33 @@ margin: 60px auto 150px;
     color: #757575;
 }
 
-input {
+input, textarea {
     height: 40px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
+    padding: auto ;
+    cursor: pointer;
+}
+
+#name, #phone, #mail, textarea{
+    padding-left: 35px;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#name:hover, #phone:hover, #mail:hover, textarea:hover{
+    border: 1px solid #2196F3;
+}
+
+textarea {
+    box-sizing: border-box;
+    resize: none;
+    padding: 12px 14px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 0.01em;
+    color: rgba(117, 117, 117, 0.5);
 }
 
 .condition {
@@ -672,6 +696,8 @@ label {
     background: #2196F3;
     border-radius: 4px;
     margin: 0 auto;
+    cursor: pointer;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .main__buttomForm:hover,
@@ -706,4 +732,37 @@ label {
     top: 0;
     right: 0;
     margin: 8px;
+}
+
+.formIcon {
+position: relative;
+}
+
+.formIcon svg {
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    left: 12px;
+    top: 30px;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.formIcon:hover {
+    fill: #2196F3;
+}
+
+.exit, .icon-cerrarExit-1 {
+    width: 30px;
+    height: 30px;
+}
+
+.exit {
+    background: transparent;
+    border: none;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.exit:hover {
+    cursor: pointer;
+    fill: #2196F3;
 }
