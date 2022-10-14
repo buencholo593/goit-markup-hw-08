@@ -165,6 +165,71 @@ footer {
 margin-bottom: 9px;
 }
 
+.boletin {
+    margin: 20px 0;
+}
+
+.label, .susc {
+    display: block;
+    margin: 0;
+}
+
+.boletin form {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.suscription {
+    width: 358px;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    padding: 0 14px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+    color: #FFFFFF;
+}
+
+.susc {
+    width: 200px;
+    height: 50px;
+    background: #2196F3;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.textSus {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
+
+.contentBut {
+    display: flex;
+    justify-content: center;
+}
+
+.suscription, .susc {
+    height: 50px;
+}
+
+.icon-carta-1 {
+    width: 24px;
+    height: 24px;
+    margin: auto 0;
+}
 /*PAGE STUDIO */
 
 /* Section main-dark */
@@ -383,7 +448,7 @@ margin: 60px auto 150px;
 .icon__customers:hover, .icon__customers:focus {
     fill: #2196F3;
     stroke: #2196F3;
-    stroke-width: .5px;
+    stroke-width: 0.5px;
 }
 
 .icon__customers rect {
@@ -558,16 +623,13 @@ margin: 60px auto 150px;
 .footer_port {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .social_img {
     display: flex;
     gap: 10px;
     margin: 20px 0;
-}
-
-.social_pages {
-    margin: 0 70px;
 }
 
 /* Ventana Modal */
@@ -611,16 +673,14 @@ margin: 60px auto 150px;
     position: relative;
 }
 
-legend {
+.containerModal h2 {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
-    line-height: 23px;
     letter-spacing: 0.03em;
     margin-bottom: 12px;
-    margin-left: auto;
-    margin-right: auto;
+    align-items: center;
 }
 
 .formMain {
@@ -648,7 +708,6 @@ input, textarea {
     height: 40px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
-    padding: auto ;
     cursor: pointer;
 }
 
@@ -657,7 +716,14 @@ input, textarea {
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-#name:hover, #phone:hover, #mail:hover, textarea:hover{
+#name:hover,
+#phone:hover,
+#mail:hover,
+textarea:hover,
+#name:focus,
+#phone:focus,
+#mail:focus,
+textarea:focus{
     border: 1px solid #2196F3;
 }
 
@@ -747,7 +813,8 @@ position: relative;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.formIcon:hover {
+.formIcon:hover,
+.formIcon:focus{
     fill: #2196F3;
 }
 
@@ -762,7 +829,8 @@ position: relative;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.exit:hover {
+.exit:hover,
+.exit:focus{
     cursor: pointer;
     fill: #2196F3;
 }
