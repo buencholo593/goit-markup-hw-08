@@ -1,12 +1,31 @@
+/* List variable  - Start*/
+
+:root {
+    --font-main: 'Roboto', sans-serif;
+    --font-off: 'Raleway', sans-serif;
+    --color-white: #fff;
+    --color-background: #212121;
+    --color-blueAnimation: #2196F3;
+    --transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    --cursor: pointer;
+}
+
+/* List variable  - End*/
+
 *{
     padding: 0;
     margin: 0;
 }
 
+a {
+    line-height: 0;
+    text-decoration: none;
+}
+
 body {
-    color: #212121;
+    color: var(--color-background);
     font-size: 14px;
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--font-main);
     width: 1600px;
     margin: 0 auto;
 }
@@ -29,28 +48,26 @@ header {
 }
 
 .logo_main a {
-    font-family: 'Raleway', sans-serif;
+    font-family: var(--font-off);
     font-size: 26px;
     font-weight: 700;
-    color:#2196F3;
-    text-decoration: none;
+    color: var(--color-blueAnimation);
     letter-spacing: 0.03em;
 }
 
 .menu_list_item {
-    color: #212121; 
-    text-decoration: none;
+    color: var(--color-background); 
     font-size: 14px;
     font-weight: 500;
     line-height: 1em;
     letter-spacing: 0.02em;
-    transition: 0.3s;
+    transition: var(--transition);
     padding: 30px 0;
 }
 
 .menu_list_item:hover, .menu_list_item:focus{
-    color:#2196F3;
-    border-bottom: 3px solid #2196F3;
+    color: var(--color-blueAnimation);
+    border-bottom: 3px solid var(--color-blueAnimation);
     border-radius: 2px;
 
 }
@@ -76,18 +93,17 @@ header {
 
 .menu_list_item2 { 
     color:#757575;
-    text-decoration: none;
     font-size: 14px;
     font-weight: 500;
     line-height: 1em;
     letter-spacing: 0.02em;
-    transition: 0.3s;
+    transition: var(--transition);
 
 }
 
 .menu_list_item2:hover, .menu_list_item2:focus{
-    color:#2196F3;
-    fill: #2196F3;
+    color: var(--color-blueAnimation);
+    fill: var(--color-blueAnimation);
 }
 
 /*Contacting bar */
@@ -109,7 +125,7 @@ footer {
 }
 
 .adress_footer {
-    color: #FFFFFF;
+    color: var(--color-white);
     font-size: 14px;
     font-weight: 400;
     font-style: normal;
@@ -125,7 +141,7 @@ footer {
 }
 
 .tittle_socialp {
-    color: #FFFFFF;
+    color: var(--color-white);
     font-size: 14px;
     font-weight: 700;
     line-height: 1em;
@@ -134,21 +150,20 @@ footer {
 
 .linkMaster {
     fill: rgba(255, 255, 255, 0.1);
-    transition: .3s;
+    transition: var(--transition);
 }
 
 .linkMaster:hover, .linkMaster:focus {
-    fill: #2196F3;
+    fill: var(--color-blueAnimation);
 }
 
 .social_img use {
-    fill: #FFFFFF;
+    fill: var(--color-white);
 }
 
 
 .item_menu_contact {
-    text-decoration: none;
-    color: #FFFFFF;
+    color: var(--color-white);
     opacity: 60%;
     font-size: 14px;
     font-weight: 400;
@@ -189,21 +204,21 @@ margin-bottom: 9px;
     padding: 0 14px;
     box-sizing: border-box;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
-    color: #FFFFFF;
+    color: var(--color-white);
 }
 
 .susc {
     width: 200px;
     height: 50px;
-    background: #2196F3;
+    background: var(--color-blueAnimation);
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     border: none;
-    cursor: pointer;
+    cursor: var(--cursor);
 }
 
 .textSus {
-    font-family: 'Raleway', sans-serif;
+    font-family: var(--font-off);
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -213,7 +228,7 @@ margin-bottom: 9px;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    color: #FFFFFF;
+    color: var(--color-white);
 }
 
 .contentBut {
@@ -244,7 +259,7 @@ margin-bottom: 9px;
 }
 
 .tittle_index {
-    color: #FFFFFF;
+    color: var(--color-white);
     font-size: 44px;
     font-weight: 900;
     letter-spacing: 0.06em;
@@ -259,10 +274,10 @@ margin-bottom: 9px;
 }
 
 .main_index .button_bar_nav {
-    background-color: #2196F3;
+    background-color: var(--color-blueAnimation);
     border-radius: 4px;
     border: none;
-    color: #FFFFFF;
+    color: var(--color-white);
     letter-spacing: 0.06em;
     font-weight: 700;
     font-size: 16px;
@@ -341,8 +356,8 @@ margin-bottom: 9px;
 }
 
 .darkSquare p{
-    color: #FFFFFF;
-    font-family: 'Roboto', sans-serif;
+    color: var(--color-white);
+    font-family: var(--font-main);
     font-weight: 700;
     font-size: 14px;
     text-transform: uppercase;
@@ -401,7 +416,7 @@ margin-bottom: 9px;
 .user_001, .user_002, .user_003, .user_004 {
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 1px rgba(0, 0, 0, 0.14), 0 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0 0 4px 4px;
-    background-color: #FFFFFF;
+    background-color: var(--color-white);
 }
 
 figcaption {
@@ -411,19 +426,15 @@ figcaption {
 
 .linkM {
     fill: rgba(255, 255, 255, 0.1);
-    transition: .3s;
+    transition: var(--transition);
 }
 
 .linkM:hover, .linkM:focus{
-    fill: #2196F3;
+    fill: var(--color-blueAnimation);
 }
 
 .social_img_ use {
     fill: #AFB1B8;
-}
-
-.social_img_ a {
-    text-decoration: none;
 }
 
 .social_img_ {
@@ -441,13 +452,13 @@ margin: 60px auto 150px;
     justify-content: space-between;
 }
 
-.customers a {
-    text-decoration: none;
+.icon__customers {
+    transition: var(--transition);
 }
 
 .icon__customers:hover, .icon__customers:focus {
-    fill: #2196F3;
-    stroke: #2196F3;
+    fill: var(--color-blueAnimation);
+    stroke: var(--color-blueAnimation);
     stroke-width: 0.5px;
 }
 
@@ -455,8 +466,6 @@ margin: 60px auto 150px;
     fill: transparent;
     stroke: #2F303A;
 }
-
-
 
 /* PAGE PORTAFOLIO */
 
@@ -477,22 +486,22 @@ margin: 60px auto 150px;
 .main_port .button_bar_nav {
     border: none;
     border-radius: 5px;
-    color:     #212121;
+    color: var(--color-background);
     background: #F5F4FA;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.625em;
     letter-spacing: 0.03em;
-    transition: 0.3s;
+    transition: var(--transition);
     display: block;
     margin: 0 auto;
     padding: 6px 25px;
 }
 
 .button_bar_nav:hover, .button_bar_nav:focus { 
-    background-color: #2196F3;
-    color: #FFFFFF;
-    cursor: pointer;
+    background-color: var(--color-blueAnimation);
+    color: var(--color-white);
+    cursor: var(--cursor);
     box-shadow: 0 3px 1px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.08), 0 2px 2px rgba(0, 0, 0, 0.12);
 }
 
@@ -549,17 +558,16 @@ margin: 60px auto 150px;
     background: rgba(33, 150, 243, 0.9);;
     box-sizing: border-box;
     padding: 63px 24px;
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--font-main);
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 28px;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
-
+    color: var(--color-white);
     position: absolute;
     transform:translatey(101%);
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: var(--transition);
 
 }
 
@@ -589,8 +597,9 @@ margin: 60px auto 150px;
 .imagenpic8,
 .imagenpic9 {
     width: 370px;
-    background: #FFFFFF;
+    background: var(--color-white);
     border: 1px solid #EEEEEE;
+    transition: var(--transition);
 }
 
 .imagenpic1:hover,
@@ -649,7 +658,7 @@ margin: 60px auto 150px;
     background-color: rgba(0, 0, 0, 0.5);
     opacity: 1;
     visibility: visible;
-    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: opacity var(--transition), visibility var(--transition);
 }
 
 .modal {
@@ -659,10 +668,10 @@ margin: 60px auto 150px;
     transform: translate(-50%, -50%);
     width: 528px;
     height: 581px;
-    background: #FFFFFF;
+    background: var(--color-white);
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 1px rgba(0, 0, 0, 0.14), 0 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform var(--transition);
 }
 
 
@@ -674,7 +683,7 @@ margin: 60px auto 150px;
 }
 
 .containerModal h2 {
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--font-main);
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -696,7 +705,7 @@ margin: 60px auto 150px;
 
 .form {
     text-align: left;
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--font-main);
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -708,12 +717,12 @@ input, textarea {
     height: 40px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
-    cursor: pointer;
+    cursor: var(--cursor);
 }
 
 #name, #phone, #mail, textarea{
     padding-left: 35px;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: var(--transition);
 }
 
 #name:hover,
@@ -724,14 +733,14 @@ textarea:hover,
 #phone:focus,
 #mail:focus,
 textarea:focus{
-    border: 1px solid #2196F3;
+    border: 1px solid var(--color-blueAnimation);
 }
 
 textarea {
     box-sizing: border-box;
     resize: none;
     padding: 12px 14px;
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--font-main);
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -751,19 +760,19 @@ label {
 }
 
 .main__buttomForm {
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--font-main);
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     letter-spacing: 0.06em;
-    color: #FFFFFF;
+    color: var(--color-white);
     width: 200px;
     height: 50px;
     background: #2196F3;
     border-radius: 4px;
     margin: 0 auto;
-    cursor: pointer;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: var(--cursor);
+    transition: var(--transition);
 }
 
 .main__buttomForm:hover,
@@ -774,7 +783,7 @@ label {
 .push {
     text-align: justify;
     margin-left: 8px;
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--font-main);
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -810,12 +819,12 @@ position: relative;
     position: absolute;
     left: 12px;
     top: 30px;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: var(--transition);
 }
 
 .formIcon:hover,
 .formIcon:focus{
-    fill: #2196F3;
+    fill: var(--color-blueAnimation);
 }
 
 .exit, .icon-cerrarExit-1 {
@@ -826,11 +835,11 @@ position: relative;
 .exit {
     background: transparent;
     border: none;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: var(--transition);
 }
 
 .exit:hover,
 .exit:focus{
-    cursor: pointer;
-    fill: #2196F3;
+    cursor: var(--cursor);
+    fill: var(--color-blueAnimation);
 }
