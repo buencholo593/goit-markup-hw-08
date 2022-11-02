@@ -1,0 +1,65 @@
+&:root {
+  --font-main: 'Roboto', sans-serif;
+  --font-off: 'Raleway', sans-serif;
+  --color-white: #fff;
+  --color-background: #212121;
+  --color-blueanimation: #2196F3;
+  --transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  --cursor: pointer;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+a {
+  line-height: 0;
+  text-decoration: none;
+}
+body {
+  color: var(--color-background);
+  font-size: 14px;
+  font-family: var(--font-main);
+  width: 1600px;
+  margin: 0 auto;
+}
+
+.container {
+  width: 1200px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.sec_three {
+  margin: 60px auto 150px;
+}
+
+.content_second_tittle {
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-align: center;
+  margin-bottom: 55px;
+}
+
+.customers {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon__customers {
+  transition: var(--transition);
+  &:hover {
+    fill: var(--color-blueAnimation);
+    stroke: var(--color-blueAnimation);
+    stroke-width: 0.5px;
+  }
+  &:focus {
+    fill: var(--color-blueAnimation);
+    stroke: var(--color-blueAnimation);
+    stroke-width: 0.5px;
+  }
+  rect {
+    fill: transparent;
+    stroke: #2F303A;
+  }
+}

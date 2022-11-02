@@ -1,0 +1,109 @@
+&:root {
+  --font-main: 'Roboto', sans-serif;
+  --font-off: 'Raleway', sans-serif;
+  --color-white: #fff;
+  --color-background: #212121;
+  --color-blueanimation: #2196F3;
+  --transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  --cursor: pointer;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+a {
+  line-height: 0;
+  text-decoration: none;
+}
+body {
+  color: var(--color-background);
+  font-size: 14px;
+  font-family: var(--font-main);
+  width: 1600px;
+  margin: 0 auto;
+}
+.container {
+  width: 1200px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.sec_two {
+  background: #F5F4FA;
+}
+
+.content_users {
+  padding: 94px 0;
+}
+
+.content_users_img {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content_users_img_ {
+  width: 270px;
+}
+
+.user_001 {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 1px rgba(0, 0, 0, 0.14), 0 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0 0 4px 4px;
+  background-color: var(--color-white);
+}
+.user_002 {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 1px rgba(0, 0, 0, 0.14), 0 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0 0 4px 4px;
+  background-color: var(--color-white);
+}
+.user_003 {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 1px rgba(0, 0, 0, 0.14), 0 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0 0 4px 4px;
+  background-color: var(--color-white);
+}
+.user_004 {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 1px rgba(0, 0, 0, 0.14), 0 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0 0 4px 4px;
+  background-color: var(--color-white);
+}
+
+figcaption {
+  margin: 20px 24px;
+}
+
+.info_user_tittle {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.188em;
+  letter-spacing: 0.03em;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.info_user_desc {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.188em;
+  letter-spacing: 0.03em;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.social_img_ {
+  use {
+    fill: #AFB1B8;
+  }
+  display: flex;
+  justify-content: space-between;
+}
+
+.linkMaster {
+  fill: rgba(255, 255, 255, 0.1);
+  transition: var(--transition);
+  &:hover {
+    fill: var(--color-blueAnimation);
+  }
+  &:focus {
+    fill: var(--color-blueAnimation);
+  }
+}

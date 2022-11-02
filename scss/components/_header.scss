@@ -1,0 +1,121 @@
+&:root {
+  --font-main: 'Roboto', sans-serif;
+  --font-off: 'Raleway', sans-serif;
+  --color-white: #fff;
+  --color-background: #212121;
+  --color-blueanimation: #2196F3;
+  --transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  --cursor: pointer;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+a {
+  line-height: 0;
+  text-decoration: none;
+}
+body {
+  color: var(--color-background);
+  font-size: 14px;
+  font-family: var(--font-main);
+  width: 1600px;
+  margin: 0 auto;
+}
+.container {
+  width: 1200px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+header {
+  border-bottom: 1px solid #ECECEC;
+}
+.container_header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu_main {
+  display: flex;
+  align-items: center;
+}
+
+.logo_main {
+  a {
+    font-family: var(--font-off);
+    font-size: 26px;
+    font-weight: 700;
+    color: var(--color-blueAnimation);
+    letter-spacing: 0.03em;
+  }
+}
+
+.menu {
+  .menu_list {
+    list-style: none;
+    display: flex;
+    margin: 0 90px;
+    gap: 50px;
+  }
+}
+
+.menu_list_item {
+  color: var(--color-background);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1em;
+  letter-spacing: 0.02em;
+  transition: var(--transition);
+  padding: 30px 0;
+  &:hover {
+    color: var(--color-blueAnimation);
+    border-bottom: 3px solid var(--color-blueAnimation);
+    border-radius: 2px;
+  }
+  &:focus {
+    color: var(--color-blueAnimation);
+    border-bottom: 3px solid var(--color-blueAnimation);
+    border-radius: 2px;
+  }
+}
+
+.menu_contacts {
+  .menu_list {
+    list-style: none;
+    display: flex;
+    margin: 30px 0;
+    gap: 50px;
+  }
+  li {
+    display: flex;
+  }
+}
+
+.menu_list_item2 {
+  color: #757575;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1em;
+  letter-spacing: 0.02em;
+  transition: var(--transition);
+  &:hover {
+    color: var(--color-blueAnimation);
+    fill: var(--color-blueAnimation);
+  }
+  &:focus {
+    color: var(--color-blueAnimation);
+    fill: var(--color-blueAnimation);
+  }
+}
+
+.icon-mail {
+  width: 16px;
+  height: 12px;
+  margin-right: 5px;
+}
+
+.icon-phone {
+  width: 16px;
+  height: 12px;
+  margin-right: 5px;
+}
