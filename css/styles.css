@@ -2670,6 +2670,8 @@ position: relative;
 
     .menu_contacts li {
         display: flex;
+        margin-bottom: 0;
+        justify-content: start;
     }
 
     /* Content Footer */
@@ -2818,6 +2820,8 @@ position: relative;
         font-weight: 900;
         letter-spacing: 0.06em;
         text-align: center;
+        line-height: initial;
+        padding: 0;
     }
 
     .container_tittle_index {
@@ -3191,6 +3195,10 @@ position: relative;
         display: flex;
         align-items: center;
         justify-content: space-between;
+
+        flex-wrap: initial;
+        text-align: initial;
+        column-gap: 0;
     }
 
     .social_img {
