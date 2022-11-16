@@ -861,7 +861,7 @@ position: relative;
         color: var(--color-background);
         font-size: 14px;
         font-family: var(--font-main);
-        width: 480px;
+        width: 100%;
         margin: 0 auto;
     }
 
@@ -1883,7 +1883,7 @@ position: relative;
         color: var(--color-background);
         font-size: 14px;
         font-family: var(--font-main);
-        width: 480px;
+        width: 100%;
         margin: 0 auto;
     }
 
@@ -1984,6 +1984,7 @@ position: relative;
 
     footer {
         background-color: #2F303A;
+        width: 100%;
     }
 
     .adress_footer {
@@ -2785,7 +2786,7 @@ position: relative;
         background-color: var(--color-white);
         z-index: 999;
         box-sizing: border-box;
-        transform: translateX(100%);
+        transform: translateX(200%);
         transition: transform 250ms ease-in-out;
     }
 
@@ -2888,7 +2889,7 @@ position: relative;
 
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 1199px){
 
     *{
         padding: 0;
@@ -2904,7 +2905,7 @@ position: relative;
         color: var(--color-background);
         font-size: 14px;
         font-family: var(--font-main);
-        width: 768px;
+        width: 100%;
         margin: 0 auto;
     }
 
@@ -3806,7 +3807,7 @@ position: relative;
         color: var(--color-background);
         font-size: 14px;
         font-family: var(--font-main);
-        width: 1600px;
+        width: 100%;
         margin: 0 auto;
     }
 
