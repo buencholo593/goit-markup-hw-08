@@ -1,12 +1,11 @@
-&:root {
-  --font-main: 'Roboto', sans-serif;
-  --font-off: 'Raleway', sans-serif;
-  --color-white: #fff;
-  --color-background: #212121;
-  --color-blueanimation: #2196F3;
-  --transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  --cursor: pointer;
-}
+$font-main: 'Roboto', sans-serif;
+$font-off: 'Raleway', sans-serif;
+$color-white: #fff;
+$color-background: #212121;
+$color-blueanimation: #2196F3;
+$transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+$cursor: pointer;
+
 * {
   padding: 0;
   margin: 0;
@@ -16,9 +15,9 @@ a {
   text-decoration: none;
 }
 body {
-  color: var(--color-background);
+  color: $color-background;
   font-size: 14px;
-  font-family: var(--font-main);
+  font-family: $font-main;
   width: 1600px;
   margin: 0 auto;
 }
@@ -99,8 +98,8 @@ body {
   right: 0;
   position: absolute;
   p {
-    color: var(--color-white);
-    font-family: var(--font-main);
+    color: $color-white;
+    font-family: $font-main;
     font-weight: 700;
     font-size: 14px;
     text-transform: uppercase;

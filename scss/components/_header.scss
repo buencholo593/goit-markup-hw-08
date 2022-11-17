@@ -1,12 +1,11 @@
-&:root {
-  --font-main: 'Roboto', sans-serif;
-  --font-off: 'Raleway', sans-serif;
-  --color-white: #fff;
-  --color-background: #212121;
-  --color-blueanimation: #2196F3;
-  --transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  --cursor: pointer;
-}
+$font-main: 'Roboto', sans-serif;
+$font-off: 'Raleway', sans-serif;
+$color-white: #fff;
+$color-background: #212121;
+$color-blueanimation: #2196F3;
+$transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+$cursor: pointer;
+
 * {
   padding: 0;
   margin: 0;
@@ -16,9 +15,9 @@ a {
   text-decoration: none;
 }
 body {
-  color: var(--color-background);
+  color: $color-background;
   font-size: 14px;
-  font-family: var(--font-main);
+  font-family: $font-main;
   width: 1600px;
   margin: 0 auto;
 }
@@ -44,10 +43,10 @@ header {
 
 .logo_main {
   a {
-    font-family: var(--font-off);
+    font-family: $font-off;
     font-size: 26px;
     font-weight: 700;
-    color: var(--color-blueAnimation);
+    color: $color-blueAnimation;
     letter-spacing: 0.03em;
   }
 }
@@ -62,21 +61,21 @@ header {
 }
 
 .menu_list_item {
-  color: var(--color-background);
+  color: $color-background;
   font-size: 14px;
   font-weight: 500;
   line-height: 1em;
   letter-spacing: 0.02em;
-  transition: var(--transition);
+  transition: $transition;
   padding: 30px 0;
   &:hover {
-    color: var(--color-blueAnimation);
-    border-bottom: 3px solid var(--color-blueAnimation);
+    color: $color-blueAnimation;
+    border-bottom: 3px solid $color-blueAnimation;
     border-radius: 2px;
   }
   &:focus {
-    color: var(--color-blueAnimation);
-    border-bottom: 3px solid var(--color-blueAnimation);
+    color: $color-blueAnimation;
+    border-bottom: 3px solid $color-blueAnimation;
     border-radius: 2px;
   }
 }
@@ -99,14 +98,14 @@ header {
   font-weight: 500;
   line-height: 1em;
   letter-spacing: 0.02em;
-  transition: var(--transition);
+  transition: $transition;
   &:hover {
-    color: var(--color-blueAnimation);
-    fill: var(--color-blueAnimation);
+    color: $color-blueAnimation;
+    fill: $color-blueAnimation;
   }
   &:focus {
-    color: var(--color-blueAnimation);
-    fill: var(--color-blueAnimation);
+    color: $color-blueAnimation;
+    fill: $color-blueAnimation;
   }
 }
 
