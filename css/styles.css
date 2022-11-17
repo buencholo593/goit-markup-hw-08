@@ -866,7 +866,7 @@ position: relative;
     }
 
     .container {
-        width: 480px;
+        width: 100%;
         box-sizing: border-box;
         margin: 0 auto;
         padding: 0 15px;
@@ -1034,7 +1034,7 @@ position: relative;
     }
 
     .suscription {
-        width: 358px;
+        width: 100%;
         background-color: transparent;
         border: 1px solid rgba(255, 255, 255, 0.3);
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -1378,46 +1378,55 @@ position: relative;
         background-image: url(.././images/imagenpic1.jpg);
         background-repeat: no-repeat;
         background-size: cover;
+        background-position: center;
     }
     .img002 {
         background-image: url(.././images/imagenpic2.jpg);
         background-repeat: no-repeat;
         background-size: cover;
+        background-position: center;
     }
     .img003 {
         background-image: url(.././images/imagenpic3.jpg);
         background-repeat: no-repeat;
         background-size: cover;
+        background-position: center;
     }
     .img004 {
         background-image: url(.././images/imagenpic4.jpg);
         background-repeat: no-repeat;
         background-size: cover;
+        background-position: center;
     }
     .img005 {
         background-image: url(.././images/imagenpic5.jpg);
         background-repeat: no-repeat;
         background-size: cover;
+        background-position: center;
     }
     .img006 {
         background-image: url(.././images/imagenpic6.jpg);
         background-repeat: no-repeat;
         background-size: cover;
+        background-position: center;
     }
     .img007 {
         background-image: url(.././images/imagenpic7.jpg);
         background-repeat: no-repeat;
         background-size: cover;
+        background-position: center;
     }
     .img008 {
         background-image: url(.././images/imagenpic8.jpg);
         background-repeat: no-repeat;
         background-size: cover;
+        background-position: center;
     }
     .img009 {
         background-image: url(.././images/imagenpic9.jpg);
         background-repeat: no-repeat;
         background-size: cover;
+        background-position: center;
     }
 
     .img_content_port:hover .animation {
@@ -1757,7 +1766,7 @@ position: relative;
         position: fixed;
         top: 0;
         left: 0;
-        width: 480px;
+        width: 100%;
         height: 796px;
         padding: 40px;
         background-color: var(--color-white);
@@ -1854,6 +1863,7 @@ position: relative;
         display: flex;
         justify-content: start;
         gap: 10px;
+        flex-wrap: wrap;
     }
 
     .social-modal {
@@ -2401,46 +2411,55 @@ position: relative;
         background-image: url(.././images/imagenpic1.jpg);
         background-repeat: no-repeat;
         background-size: cover;
+        background-position: center;
     }
     .img002 {
         background-image: url(.././images/imagenpic2.jpg);
         background-repeat: no-repeat;
         background-size: cover;
+        background-position: center;
     }
     .img003 {
         background-image: url(.././images/imagenpic3.jpg);
         background-repeat: no-repeat;
         background-size: cover;
+        background-position: center;
     }
     .img004 {
         background-image: url(.././images/imagenpic4.jpg);
         background-repeat: no-repeat;
         background-size: cover;
+        background-position: center;
     }
     .img005 {
         background-image: url(.././images/imagenpic5.jpg);
         background-repeat: no-repeat;
         background-size: cover;
+        background-position: center;
     }
     .img006 {
         background-image: url(.././images/imagenpic6.jpg);
         background-repeat: no-repeat;
         background-size: cover;
+        background-position: center;
     }
     .img007 {
         background-image: url(.././images/imagenpic7.jpg);
         background-repeat: no-repeat;
         background-size: cover;
+        background-position: center;
     }
     .img008 {
         background-image: url(.././images/imagenpic8.jpg);
         background-repeat: no-repeat;
         background-size: cover;
+        background-position: center;
     }
     .img009 {
         background-image: url(.././images/imagenpic9.jpg);
         background-repeat: no-repeat;
         background-size: cover;
+        background-position: center;
     }
 
     .img_content_port:hover .animation {
@@ -3418,30 +3437,57 @@ position: relative;
 
     .img001 {
         background-image: url(.././images/imagenpic1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
     }
     .img002 {
         background-image: url(.././images/imagenpic2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
     }
     .img003 {
         background-image: url(.././images/imagenpic3.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
     }
     .img004 {
         background-image: url(.././images/imagenpic4.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
     }
     .img005 {
         background-image: url(.././images/imagenpic5.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
     }
     .img006 {
         background-image: url(.././images/imagenpic6.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
     }
     .img007 {
         background-image: url(.././images/imagenpic7.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
     }
     .img008 {
         background-image: url(.././images/imagenpic8.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
     }
     .img009 {
         background-image: url(.././images/imagenpic9.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
     }
 
     .img_content_port:hover .animation {
@@ -4312,30 +4358,57 @@ position: relative;
 
     .img001 {
         background-image: url(.././images/imagenpic1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
     }
     .img002 {
         background-image: url(.././images/imagenpic2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
     }
     .img003 {
         background-image: url(.././images/imagenpic3.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
     }
     .img004 {
         background-image: url(.././images/imagenpic4.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
     }
     .img005 {
         background-image: url(.././images/imagenpic5.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
     }
     .img006 {
         background-image: url(.././images/imagenpic6.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
     }
     .img007 {
         background-image: url(.././images/imagenpic7.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
     }
     .img008 {
         background-image: url(.././images/imagenpic8.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
     }
     .img009 {
         background-image: url(.././images/imagenpic9.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
     }
 
     .img_content_port:hover .animation {
